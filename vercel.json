@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "src": "/spotify-clone", "dest": "/" },
+    { "src": "/spotify-clone/(.*)", "dest": "/$1" }
+  ]
+}
